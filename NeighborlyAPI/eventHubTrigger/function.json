@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "eventGridTrigger",
+      "name": "event",
+      "direction": "in",
+	  "eventHubName": "neighboulyhub2", 
+	  "connection": "Endpoint=sb://neighboulyhub2.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=C0SagXKdLhDl9KAN7+ezq64gl3w0r43pTDEmHJMvgmE="
+    }
+  ]
+}
